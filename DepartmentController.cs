@@ -78,6 +78,8 @@ namespace WebApi.Controllers
                 return "Failed To update";
             }
         }
+        [Route("api/department/deleteDepart")]
+        [HttpGet]
         public string Delete(int id)
         {
             try
