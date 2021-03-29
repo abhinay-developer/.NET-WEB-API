@@ -1,0 +1,17 @@
+FOR Creating Database in SQLServer
+===================================
+create database <database-name>
+
+
+FOR SELECTING ALL ROWS in SQL SERVER
+=====================================
+select * from dbo.department;
+
+
+FOR INSERTING VALUES IN TO TABLES
+==================================
+insert into  dbo.department values('SUPPORT')
+
+Enabling CROS IN .NET WEB API
+=============================
+Install-Package Microsoft.AspNet.WebApi.Cors
